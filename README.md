@@ -16,6 +16,15 @@
 # scan a list, eight at a time
 ./smchijack.py hosts.txt --threads 8
 
+## KEY    ## CVE
+65219    CVE-2026-65219
+18449    CVE-2026-18449
+18450    CVE-2026-18450
+36435    CVE-2024-36435
+33411    CVE-2023-33411
+33412    CVE-2023-33412
+33413    CVE-2023-33413
+6387     CVE-2024-6387
 
 usage: smchijack [-h] [--lhost LHOST] [-p LPORT] [--command COMMAND]
                  [--all] [--modules MODULES] [--creds [CREDS ...]]
