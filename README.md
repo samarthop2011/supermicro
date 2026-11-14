@@ -15,3 +15,20 @@
 
 # scan a list, eight at a time
 ./smchijack.py hosts.txt --threads 8
+
+
+usage: smchijack [-h] [--lhost LHOST] [-p LPORT] [--command COMMAND]
+                 [--all] [--modules MODULES] [--creds [CREDS ...]]
+                 [--user [USER ...]] [--file [FILE ...]] [--sid SID]
+                 [--seq SEQ] [--scan-sids] [--reset-admin UID:PW]
+                 [--set-password UID:PW] [--power POWER]
+                 [--config-key CONFIG_KEY] [--config-iv CONFIG_IV]
+                 [--config-cipher {cbc,ecb}]
+                 [--libc-base LIBC_BASE] [--gadget1 GADGET1]
+                 [--gadget2 GADGET2] [--system SYSTEM]
+                 [--attempts ATTEMPTS] [--connections CONNECTIONS]
+                 [--grace GRACE] [--safe] [--stop-on-pwn]
+                 [--threads THREADS] [--timeout TIMEOUT] [--proxy PROXY]
+                 [--json JSON] [--quiet] [--no-colour] [--debug]
+                 [--self-test]
+                 [targets ...]
